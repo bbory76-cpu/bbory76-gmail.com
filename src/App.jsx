@@ -4,7 +4,7 @@ import { ImagePlus, RefreshCcw, LayoutGrid, Eye } from 'lucide-react';
 import PuzzleBoard from './components/PuzzleBoard';
 
 // The default generated character image
-const DEFAULT_IMAGE = '/default-character.png'; 
+const DEFAULT_IMAGE = `${import.meta.env.BASE_URL}default-character.png`; 
 
 function App() {
   const [image, setImage] = useState(DEFAULT_IMAGE);
