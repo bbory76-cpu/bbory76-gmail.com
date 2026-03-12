@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://bbory76-cpu.github.io/bbory76-gmail.com",
+  "homepage": "https://bbory76-cpu.github.io/desktop-tutorial",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
